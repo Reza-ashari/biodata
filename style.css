@@ -1,0 +1,42 @@
+html, body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    color: #444;
+}
+
+.wrapper{
+    width: 300px;
+}
+
+
+.foto{
+    display: block;
+    margin: 0 auto;
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 80px;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    font-weight: 700;
+}
+
+.table tr td {
+    padding: .25rem;
+}
+
+.table tr td:first-child{
+    font-weight: 700;
+}
